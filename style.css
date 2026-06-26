@@ -388,3 +388,38 @@ body {
         padding: 25px;
     }
 }
+
+.download {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.download-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.download h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.download p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    transform: translateY(-5px);
+}
